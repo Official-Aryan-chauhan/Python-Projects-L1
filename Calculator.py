@@ -1,20 +1,21 @@
-# calculator
+# First Calculator calculator
 import datetime
 present_date_time = datetime.datetime.now()
-print('Welcome')
+print('Welcome') #For Good Presentation 
 print(f"Today Date and Time {present_date_time}")
+
 while True:
     length = int(input("For How Many Numbers You Have To Perform Calculation : "))
+    
     if length == 0:
         print("Zero Length !")
     else:
-        
         storing_point = []
         for i in range(length):
             given_value = float(input("Enter The Value : "))
             storing_point.append(given_value)
 
-        operator_choice = input("Eneter The Operator : ").lower()
+        operator_choice = input("Enter The Operator : ").lower()
         if not operator_choice in ("add","+",'-',"sub","mul","divide","subtract","/","div","division","*","multiply"):
             print("Invalid Operator,Please Check It")
             print("Make Sure Your Operators are from folllowing choices","\n","add","+",'-',"sub","mul","divide","subtract","/","div","division","*","multiply" )
