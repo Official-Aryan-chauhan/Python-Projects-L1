@@ -1,0 +1,1 @@
+IN this repo there are some fundamental projects, which i created at the time of learning the python Fundamentals!
